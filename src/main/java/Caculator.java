@@ -1,7 +1,7 @@
 public class Caculator implements ICaculator{
     @Override
     public Integer sum(Integer a, Integer b) {
-        return 0;
+        return a/b;
     }
 
     @Override
