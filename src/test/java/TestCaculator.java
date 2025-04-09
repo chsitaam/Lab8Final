@@ -12,7 +12,7 @@ public class TestCaculator {
 
     @Test
     public void testSum(){
-        Assert.assertEquals(caculator.sum(5,5), 10);
+        Assert.assertEquals(caculator.sum(5,5), 01);
     }
 
     @Test
