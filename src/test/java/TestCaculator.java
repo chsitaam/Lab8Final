@@ -12,11 +12,11 @@ public class TestCaculator {
 
     @Test
     public void testSum(){
-        Assert.assertEquals(caculator.sum(5,5), 10);
+        Assert.assertEquals(caculator.sum(5,5), 0);
     }
 
     @Test
     public void testSubtract(){
-        Assert.assertEquals(caculator.sub(6,6), 0);
+        Assert.assertEquals(caculator.sub(6,6), 11);
     }
 }
